@@ -1,7 +1,20 @@
 body{
-    background-color: beige;
+    background-color: cornflowerblue;
 }
 
-h1{
+div.title {
     font-family: "am-majella";
+    font-size: 200px;
+    line-height: 170px;
+    color: floralwhite;
+    margin-left: 200px;
+}
+
+div.contents {
+    font-family: "futura-100";
+    font-size: 21px;
+    line-height: 25px;
+    margin-left: 200px;
+    color: antiquewhite;
+    margin-top: 100px;
 }
