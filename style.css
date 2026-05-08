@@ -3,10 +3,44 @@ body{
 }
 
 img {
-    width: 100%;
+    width: 90%;
     display: block;
+    margin-left: 80px;
+    margin-top: 80px;
+    margin-bottom: 80px;  
 }
 
+div.clock {
+    background-color: black;
+    color: antiquewhite;
+    font-family: "am-majella";
+    font-size: 30px;
+    padding: 10px;
+    position: fixed;
+    top: 400px;
+    left: 200px;
+}
+
+div.nav {
+    position: fixed;
+    top: 0px;
+    font-family: "am-majella";
+    left: 0px;
+    color: floralwhite;
+    background-color: cornflowerblue;
+    width: 100%;
+    padding: 10px;
+    border-bottom: 1px solid floralwhite;
+}
+
+@keyframes fade{
+    0%{
+        background-color: red;
+    }
+    100% {
+        background-color: blue;
+    }
+}
 
 div.title {
     font-family: "am-majella";
@@ -15,7 +49,35 @@ div.title {
     color: floralwhite;
     margin-left: 200px;
     font-weight: bold;
+    margin-top: 50px;
+
 }
+
+div.greenthing {
+    margin-top: -30px;
+    margin-right: 80px;
+    width: 40%;
+
+}
+
+div.quote1 { 
+    width: 50%;
+    margin-top: 160px;
+    color: floralwhite;
+}
+
+div.intro {
+    font-size: 80px;
+    font-family: "am-majella";
+    line-height: 75px;
+    font-weight: 100;
+    margin-bottom: 50px;
+    width: 100%;
+    display: block;
+    display: flex;
+    flex-wrap: wrap;
+} 
+
 
 div.blue {
     color: dodgerblue;
@@ -26,14 +88,7 @@ div.largefont {
     font-size: large;
 }
 
-div.contents {
-    font-family: "futura-100";
-    font-size: 21px;
-    line-height: 25px;
-    margin-left: 200px;
-    color: antiquewhite;
-    margin-top: 100px;
-}
+
 
 div.chapter {
     color: darkblue;
